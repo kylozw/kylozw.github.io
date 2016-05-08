@@ -1,11 +1,12 @@
-#Hux Blog
+# Kylo Blog
 
-###[View Live Hux Blog &rarr;](http://huxpro.github.io)
+based on [Hux Blog](https://github.com/Huxpro/huxpro.github.io).
+
+## [View Live Hux Blog →](http://huxpro.github.io)
 
 ![](http://huangxuan.me/img/blog-desktop.jpg)
 
-
-### "Page Build Warning" email
+## "Page Build Warning" email
 
 These days, some of you must receive a "Page Build Warning" email from github after you commit happily. **Don't Worried!** It just that github changes its build environment.
 
@@ -15,66 +16,61 @@ In this mail, github told us:
 
 So, just edit `_config.yml`, find `highlighter: pygments`, change it to `highlighter: rouge` and the warning will be gone.
 
-
 ## Boilerplate (beta)
 
-Want to clone a boilerplate instead of my buzz blog? Here comes this!  
+Want to clone a boilerplate instead of my buzz blog? Here comes this!
 
 ```
 $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 ```
 
-**[View Boilerplate Here &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
-
+**[View Boilerplate Here →](http://huangxuan.me/huxblog-boilerplate/)**
 
 ## Translation
 
- - ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese (Simplified)**: 感谢 [@BrucZhaoR](https://github.com/BruceZhaoR) 的 [中文翻译 &rarr;](https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md)
+- ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png) **Chinese (Simplified)**: 感谢 [@BrucZhaoR](https://github.com/BruceZhaoR) 的 [中文翻译 →](https://github.com/Huxpro/huxpro.github.io/blob/master/README.zh.md)
 
 ## Features
 
-##### New Feature (V1.5.2)
+### New Feature (V1.5.2)
 
 - Annoyed to delete my blog post after clone or pull? **Boilerplate** comes to help you get started quickly and easily merge update.
 - `-apple-system` is added in font rule, which display beautiful new font **San Francisco** in iOS 9 by default.
 - Fixed [issue#15](https://github.com/Huxpro/huxpro.github.io/issues/15) about code wrap.
 
-##### New Feature (V1.5.1)
+### New Feature (V1.5.1)
 
 - **[Comment](#comment)** support [**Disqus**](http://disqus.com) officially, thanks to @rpsh.
 
-##### New Feature (V1.5)
+### New Feature (V1.5)
 
 - **[Comment](#comment)** and **[Analytics](#analytics)** is configurable now! We also add **Google Analytics support** and drop tencents. Both documents is updated.
 
-##### New Feature (V1.4)
+### New Feature (V1.4)
 
 - **[Featured Tags](#featured-tags)** is now independent of [SideBar](#sidebar). Both documents is updated.
 - New **[SEO Title](#seo-title)** for SEO usage which is differ from the site title
 
-##### New Feature (V1.3.1)
+### New Feature (V1.3.1)
 
 - Support **PingFang (苹方)**, the new Chinese font presented by [OS X El Capitan](http://www.apple.com/cn/osx/whats-new/)
 
+### New Feature (V1.3)
 
-##### New Feature (V1.3)
+- Big Improvement to the **Navigation Menu** _(especially in Android)_: Dropping the old, stuttering, low-performance [Bootstrap collapse.js](http://getbootstrap.com/javascript/#collapse), replaced with an own wrote, [jank free](http://jankfree.org/) navbar menu in a pretty high-performance implementation of [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html).
 
-- Big Improvement to the **Navigation Menu** *(especially in Android)*:  Dropping the old, stuttering, low-performance [Bootstrap collapse.js](http://getbootstrap.com/javascript/#collapse),  replaced with an own wrote, [jank free](http://jankfree.org/) navbar menu in a pretty high-performance implementation of [Google Material Design](https://www.google.com/design/spec/material-design/introduction.html).
+![](http://huangxuan.me/img/blog-md-navbar.gif)
 
-<img src="http://huangxuan.me/img/blog-md-navbar.gif" width="320" />
-
-
-##### New Feature (V1.2)
+### New Feature (V1.2)
 
 - Brand new **[Keynote Layout](#keynote-layout)** is provided for easily posting beautiful HTML presentations you have created with this blog
 
-
-##### New Feature (V1.1)
+### New Feature (V1.1)
 
 - We now support a clean and gorgeous **[SideBar](#sidebar)** for displaying more info
 - **[Friends](#friends)** is also added as a common feature of blog help you do SEO
 
-##### V1.0
+### V1.0
 
 - Full-feature **Tag** support
 - **Mobile first** user experience optimization
@@ -84,48 +80,51 @@ $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 - Using Baidu, Tencent/QQ analytics
 - Using [DuoShuo](http://duoshuo.com/) as the Disqus-like third party discussion system
 
-
 ## Support
 
 - **Feel free to fork. I'll Appreciate it if you keep the Author & Github link at footer**
 - Give it a **Star** if you like, fork or just clone to use ;)
 - If any problem or requirement, just open an issue here and I will help you.
 
-
 ## Document
 
-* Get Started
-	* [Environment](#environment)
-	* [Get Started](#get-started)
-	* [Write Posts](#write-posts)
-* Components
-	* [SideBar](#sidebar)
-	* [Mini About Me](#mini-about-me)
-	* [Featured Tags](#featured-tags)
-	* [Friends](#friends)
-	* [Keynote Layout](#keynote-layout)
-* Comment & Analysis
-	* [Comment](#comment)
-	* [Analytics](#analytics)
-* Advanced
-	* [Customization](#customization)
-	* [Header Image](#header-image)
-	* [SEO Title](#seo-title)
+- Get Started
 
-#### Environment
+  - [Environment](#environment)
+  - [Get Started](#get-started)
+  - [Write Posts](#write-posts)
 
-If you have jekyll installed, simply run `jekyll serve` in Command Line
-and preview the themes in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
+- Components
 
+  - [SideBar](#sidebar)
+  - [Mini About Me](#mini-about-me)
+  - [Featured Tags](#featured-tags)
+  - [Friends](#friends)
+  - [Keynote Layout](#keynote-layout)
 
-#### Get Started
+- Comment & Analysis
+
+  - [Comment](#comment)
+  - [Analytics](#analytics)
+
+- Advanced
+
+  - [Customization](#customization)
+  - [Header Image](#header-image)
+  - [SEO Title](#seo-title)
+
+### Environment
+
+If you have jekyll installed, simply run `jekyll serve` in Command Line and preview the themes in your browser. You can use `jekyll serve --watch` to watch for changes in the source files as well.
+
+### Get Started
 
 You can easily get started by modifying `_config.yml`:
 
 ```
 # Site settings
 title: Hux Blog             # title of your website
-SEOTitle: Hux Blog			# check out docs for more detail
+SEOTitle: Hux Blog            # check out docs for more detail
 description: "Cool Blog"    # ...
 
 # SNS settings      
@@ -138,32 +137,20 @@ weibo_username: huxpro      # the footer woule be auto-updated.
 
 There are more options you can check out in the [Jekyll - Official Site](http://jekyllrb.com/), or you can directly dive into code to find more.
 
-
-#### Write Posts
+### Write Posts
 
 Feel free to checkout Markdown files in the `_posts/`, you will quickly realized how to post your articles with magical markdown plus this nice theme.
 
 The **front-matter** of a post looks like that:
 
 ```
----
-layout:     post
-title:      "Hello 2015"
-subtitle:   "Hello World, Hello Blog"
-date:       2015-01-29 12:00:00
-author:     "Hux"
-header-img: "img/post-bg-2015.jpg"
-tags:
-    - Life
----
-
 ```
 
-#### SideBar
+### SideBar
 
 ![](http://huangxuan.me/img/blog-sidebar.jpg)
 
-Seeing more information may be necessary for you to display, from V1.1, a clean, gorgeous **SideBar** is added for you, which provide more area for displaying possible modules. You can enable *(it is default enable)* this feature by simply config:
+Seeing more information may be necessary for you to display, from V1.1, a clean, gorgeous **SideBar** is added for you, which provide more area for displaying possible modules. You can enable _(it is default enable)_ this feature by simply config:
 
 ```
 # Sidebar settings
@@ -172,20 +159,19 @@ sidebar-about-description: "your description here"
 sidebar-avatar: /img/avatar-hux.jpg     # use absolute URL.
 ```
 
-We default support *[Featured Tags](#featured-tags)*, *[Mini About Me](#mini-about-me)* and *[Friends](#friends)* these three modules and you can add your own. The sidebar is naturally responsive and would be push to bottom in a small screen size (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))  
+We default support _[Featured Tags](#featured-tags)_, _[Mini About Me](#mini-about-me)_ and _[Friends](#friends)_ these three modules and you can add your own. The sidebar is naturally responsive and would be push to bottom in a small screen size (`<= 992px`, according to [Bootstarp Grid System](http://getbootstrap.com/css/#grid))<br>
 More details of these three separate modules are talking below.
 
-#### Mini About Me
+### Mini About Me
 
 Mini-About-Me module display all your SNS buttons also your avatar and the description if you set `sidebar-avatar` and `sidebar-about-description` which is very useful and common for a sidebar so it is default with your sidebar.
 
 It is really nice-looking and well-designed. It would be hidden in a small screen seeing the sidebar would be push to bottom and there is already a footer including SNS feature which is similar.
 
-#### Featured Tags
+### Featured Tags
 
-Considering the Featured-Tags feature in [Medium](http://medium.com) is pretty cool, so I add it in my blog theme also.   
+Considering the Featured-Tags feature in [Medium](http://medium.com) is pretty cool, so I add it in my blog theme also.<br>
 This module is independent of sidebar from V1.4, so it can definitely live without enable sidebar, which would be displayed in the bottom when `sidebar` set to false, and it is not only displayed in home page but also every post page bottom.
-
 
 ```
 # Featured Tags
@@ -193,14 +179,13 @@ featured-tags: true
 featured-condition-size: 1     # A tag will be featured if the size of it is more than this condition value
 ```
 
-The only one thing need to be paid attention to is the `featured-condition-size`: A tag will be featured if the size of it is more than this condition value.  
+The only one thing need to be paid attention to is the `featured-condition-size`: A tag will be featured if the size of it is more than this condition value.<br>
 Internally, a condition template `{% if tag[1].size > {{site.featured-condition-size}} %}` is used to do the filter.
 
-#### Friends
+### Friends
 
-Friends is a very common feature of a blog seeing the SEO, so I add it in V1.1 release to help that.   
+Friends is a very common feature of a blog seeing the SEO, so I add it in V1.1 release to help that.<br>
 Friends can also live without enable sidebar, also be displayed in the bottom when sidebar unable, and be displayed in every post page bottom.
-
 
 You can just add your friends information in `_config.yml` with a familiar JSON syntax and everything is done, very easy:
 
@@ -218,8 +203,7 @@ friends: [
 ]
 ```
 
-
-#### Keynote Layout
+### Keynote Layout
 
 ![](http://huangxuan.me/img/blog-keynote.jpg)
 
@@ -236,8 +220,7 @@ iframe:     "http://huangxuan.me/js-module-7day/"
 
 The iframe will be automatically resized to adapt different form factors also the device orientation. A padding is left to imply user that there has more content below, also to ensure that there is a area for user to scroll down in mobile device seeing most of the keynote framework prevent the browser default scroll behavior.
 
-
-#### Comment
+### Comment
 
 This theme support both [Disqus](http://disqus.com) and [Duoshuo](http://duoshuo.com) as the third party discussion system.
 
@@ -255,9 +238,7 @@ disqus_username: _your_disqus_short_name_
 
 Furthermore, Duoshuo support Sharing. if you only wanna use Duoshuo comment without sharing, you can set `duoshuo_share: false`. You can use Duoshuo Sharing and Disqus Comments together also.
 
-
-
-#### Analytics
+### Analytics
 
 From V1.5, we support Google Analytics and Baidu Tongji officially with a deathly simple config:
 
@@ -272,18 +253,15 @@ ga_domain: huangxuan.me
 
 Just checkout the code offered by Google/Baidu, and copy paste here, all the rest is already done for you.
 
-
-
-#### Customization
+### Customization
 
 If you wanna do more customization and change code yourself, a [Grunt](gruntjs.com) environment is also included. (Thanks to Clean Blog.)
 
-There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt ` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
+There are a number of tasks it performs like minification of the JavaScript, compiling of the LESS files, adding banners to keep the Apache 2.0 license intact, and watching for changes. Run the grunt default task by entering `grunt` into your command line which will build the files. You can use `grunt watch` if you are working on the JavaScript or the LESS.
 
 **Try to understand code in `_include/` and `_layouts/`, then you can modify Jekyll [Liquid](https://github.com/Shopify/liquid/wiki) template directly to do more creative customization.**
 
-
-#### Header Image
+### Header Image
 
 Change header images of any pages or any posts is pretty easy as mentioned above. But, thanks to [issue #6 (in Chinese)](https://github.com/Huxpro/huxpro.github.io/issues/6) asked, **how to make it looks great?**
 
@@ -291,17 +269,15 @@ Change header images of any pages or any posts is pretty easy as mentioned above
 
 Seeing the title text above image is **white**, the image should be **dark** to emphasize the contract. so we can easily add a **black overlay with fews of opacity**, which is depends on the brightness of the original images you used. you can process it in Photoshop, Sketch etc.
 
-In technical views, it can be done with CSS. However, the opacity of the black overlay is really hard to assigned, **every image has different brightness so the  degree it should be adjusted is different so it is impossible to hard code it.**
+In technical views, it can be done with CSS. However, the opacity of the black overlay is really hard to assigned, **every image has different brightness so the degree it should be adjusted is different so it is impossible to hard code it.**
 
+### SEO Title
 
-#### SEO Title
-
-Before V1.4, site setting `title` is not only used for displayed in Home Page and Navbar, but also used to generate the `<title>` in HTML.
-It's possible that you want the two things different. For me, my site-title is **“Hux Blog”** but I want the title shows in search engine is **“黄玄的博客 | Hux Blog”** which is multi-language.
+Before V1.4, site setting `title` is not only used for displayed in Home Page and Navbar, but also used to generate the `<title>` in HTML. It's possible that you want the two things different. For me, my site-title is **"Hux Blog"** but I want the title shows in search engine is **"黄玄的博客 | Hux Blog"** which is multi-language.
 
 So, the SEO Title is introduced to solve this problem, you can set `SEOTitle` different from `title`, and it would be only used to generate HTML `<title>` and setting DuoShuo Sharing.
 
 ## Thanks
 
-This theme is forked from [IronSummitMedia/startbootstrap-clean-blog-jekyll](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll)  
+This theme is forked from [IronSummitMedia/startbootstrap-clean-blog-jekyll](https://github.com/IronSummitMedia/startbootstrap-clean-blog-jekyll)<br>
 Thanks Jekyll and Github Pages!
