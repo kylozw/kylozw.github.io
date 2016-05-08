@@ -13,7 +13,7 @@ tags:
 
 # 摘要
 
-本文章的内容是对[慕课网的 moocer 老师对 Java 安全方面一些列课程的整理](http://www.imooc.com/space/teacher/id/315464)，旨在对 Java 安全算法相关的知识进行梳理文中对部分相似内容进行了概括说明，并进行了一些比对，方便记忆以及日后回顾。
+本文章的内容是对[慕课网的 moocer 老师对 Java 安全方面一些列课程的整理](http://www.imooc.com/u/315464/courses?sort=publish)，旨在对 Java 安全算法相关的知识进行梳理文中对部分相似内容进行了概括说明，并进行了一些比对，方便记忆以及日后回顾。
 
 # Java安全组成
 
