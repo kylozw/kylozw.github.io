@@ -1,6 +1,6 @@
 ---
 layout: post
-title: spring-integration-kafka 0.9 使用
+title: spring-integration-kafka 2.0 使用
 subtitle: spring-integration-kafka
 author: kylo
 catalog: true
