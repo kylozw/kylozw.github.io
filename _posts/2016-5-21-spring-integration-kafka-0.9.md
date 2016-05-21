@@ -9,6 +9,14 @@ tags:
   - spring-integration-kafka
 ---
 
+- [打包编译 spring-integration-kafka](#打包编译-spring-integration-kafka)
+- [Outbound Channel Adapter 和 Message Driven Channel Adapter](#outbound-channel-adapter-和-message-driven-channel-adapter)
+
+  - [Outbound Channel Adapter 配置](#outbound-channel-adapter-配置)
+  - [Message Driven Channel Adapter 配置](#message-driven-channel-adapter-配置)
+
+- [生产者和消费者使用](#生产者和消费者使用)
+
 Spring 终于在 2016 年的 4 月 9 日发布了支持 kafka 0.9 版本的集成框架 [spring-integration-kafka](!https://github.com/spring-projects/spring-integration-kafka)，虽然还只是个里程碑的版本。新版的集成底层使用自家的 [spring-kafka](!https://github.com/spring-projects/spring-kafka)，使用的是 kafka 0.9 提供的新接口，kafka 0.9 不再区分 High Level API 和 Simple Consumer API。
 
 # 打包编译 spring-integration-kafka
