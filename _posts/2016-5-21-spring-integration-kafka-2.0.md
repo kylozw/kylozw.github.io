@@ -5,7 +5,7 @@ subtitle: spring-integration-kafka
 author: kylo
 catalog: true
 tags:
-  - kafka
+  - Kafka
   - spring-integration-kafka
 ---
 

@@ -1,13 +1,13 @@
 ---
 layout: post
 title: Java网络教程：UDP DatagramSocket
-subtitle: 'java, UDP'
+subtitle: 'Java, UDP'
 date: 2015-12-19T00:00:00.000Z
 author: kylo
 catalog: true
 tags:
   - UDP
-  - java
+  - Java
 ---
 
 [原文地址](http://tutorials.jenkov.com/java-networking/udp-datagram-sockets.html "Java Networking: UDP DatagramSocket") 译者：Kylo
