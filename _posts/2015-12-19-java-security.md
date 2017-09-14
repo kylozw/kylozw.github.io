@@ -1,14 +1,14 @@
 ---
 layout: post
 title: Java 安全算法
-subtitle: 'Java, algorithm, security'
+subtitle: 'Java, Algorithm, Security'
 date: 2015-12-19T00:00:00.000Z
 author: kylo
 catalog: true
 tags:
   - Java
-  - algorithm
-  - security
+  - Algorithm
+  - Security
 ---
 
 # 摘要

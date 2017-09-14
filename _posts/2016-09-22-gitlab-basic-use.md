@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Gitlab 基本使用
-subtitle: 'Gitlab'
+title: GitLab 基本使用
+subtitle: 'GitLab'
 author: kylo
 catalog: true
 tags:
-  - Gitlab
+  - GitLab
 ---
 # 注册用户
 

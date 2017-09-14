@@ -1,14 +1,14 @@
 ---
 layout: post
-title: 在 Debian 平台或者 Redhat 平台安装 Java
-subtitle: 'Java, Debian, Redhat'
+title: 在 Debian 平台或者 RedHat 平台安装 Java
+subtitle: 'Java, Debian, RedHat'
 date: '2016-08-23 15:02'
 author: kylo
 catalog: true
 tags:
   - Java
   - Debian
-  - Redhat
+  - RedHat
 ---
 
 # Debian 平台
