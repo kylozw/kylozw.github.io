@@ -175,7 +175,7 @@ Completed 200 OK in 212ms (Views: 127.8ms | ActiveRecord: 23.1ms)
 
 GitLab 的数据库用户表里记录了每个帐户的当前登录时间和上次登录时间，我们最后对当前登录时间进行了倒序排查，发现了一个不应该登录的帐户在 2018-06-13 进行了登录：
 
-![gitlab_登录记录.png | center | 747x341](https://cdn.nlark.com/yuque/0/2019/png/87959/1569498045168-1b8931c8-0e30-4613-b46f-517cba91fb3b.png)
+![gitlab_登录记录.png](https://cdn.nlark.com/yuque/0/2019/png/87959/1569498045168-1b8931c8-0e30-4613-b46f-517cba91fb3b.png)
 
 ## MongoDB 服务器 SSH 登录信息
 
@@ -213,7 +213,7 @@ Jun 13 11:56:03 iZbp12sjfct392qm9maskkZ sshd[14279]: Received disconnect from 20
 
 我们查找了这个 IP 的地理位置：
 
-![mongo 服务器登陆失败 ip.png | center | 747x352](https://cdn.yuque.com/yuque/86/2018/png/87960/1528958805587-e2caaeea-b470-408a-bdbd-150c4e8687ba.png "")
+![mongo服务器登陆失败.png](https://cdn.yuque.com/yuque/86/2018/png/87960/1528958805587-e2caaeea-b470-408a-bdbd-150c4e8687ba.png "")
 
 # 总结
 
