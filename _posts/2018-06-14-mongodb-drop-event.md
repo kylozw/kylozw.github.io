@@ -213,7 +213,7 @@ Jun 13 11:56:03 iZbp12sjfct392qm9maskkZ sshd[14279]: Received disconnect from 20
 
 我们查找了这个 IP 的地理位置：
 
-![mongo服务器登陆失败.png](https://cdn.yuque.com/yuque/86/2018/png/87960/1528958805587-e2caaeea-b470-408a-bdbd-150c4e8687ba.png "")
+![mongo服务器登陆失败.png](https://cdn.yuque.com/yuque/86/2018/png/87960/1528958805587-e2caaeea-b470-408a-bdbd-150c4e8687ba.png)
 
 # 总结
 
