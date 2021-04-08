@@ -154,4 +154,45 @@ private Set<Node> getDirectChildren(Set<Node> Nodes) {
 
 很显然这样的效率不高，每一次都需要判断之前层级里是否已存在，还需要进行删除操作。重新审视上面的流程，可以发现，这样的操作是事后判断，那其实也可以事前判断。可以在放入之前，先判断当前结点的邻接上游结点是否已放入，如果所有上游结点都已在```allChildrenNodes```中，才放入。
 
+修改后的代码如下：
+
+```java
+public void generateLayers() {
+    Set<Node> allChildrenNodes = new LinkedHashSet<>();
+    allChildrenNodes.add(this);
+    this.setAllChildrenNodes(allChildrenNodes);
+
+    List<Set<Node>> NodesByLayer = new LinkedList<>();
+    this.setNodesByLayer(NodesByLayer);
+
+    Set<Node> thisNodes = new LinkedHashSet<>();
+    thisNodes.add(this);
+
+    while (!CollectionUtils.isEmpty(thisNodes)) {
+        NodesByLayer.add(thisNodes);
+        thisNodes = this.getDirectChildren(thisNodes);
+    }
+}
+
+private Set<Node> getDirectChildren(Set<Node> Nodes) {
+    Set<Node> nextLayerNodes = new ConcurrentHashSet<>();
+
+    Set<Node> allChildrenNodes = this.getAllChildrenNodes();
+    for (Node Node : Nodes) {
+        Set<Node> childrenNodes = Node.getChildrenNodes();
+        if (!CollectionUtils.isEmpty(childrenNodes)) {
+            for (Node childrenNode : childrenNodes) {
+                if (CollectionUtils.isEmpty(childrenNode.getParentNodes())
+                        || allChildrenNodes.containsAll(childrenJobConf.getParentNodes())) {
+                    // 如果上游所有任务都已经在已分配任务Set中，将该任务分配
+                    nextLayerNodes.add(childrenNode);
+                }
+            }
+        }
+    }
+    allChildrenNodes.addAll(nextLayerNodes);
+    return nextLayerNodes;
+}
+```
+
 这样以后，再重新观察流程，就会发现，这不就是上面的拓扑排序吗！嗯，真香。
